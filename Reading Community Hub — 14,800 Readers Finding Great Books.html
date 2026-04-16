@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://robwihisky.lovable.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Reading Community Hub — 14,800 Readers Finding Great Books</title><meta name="author" content="Lovable"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@Lovable"><meta name="twitter:title" content="Lovable App"><meta name="twitter:description" content="Reader Haven Hub showcases a Goodreads community&#39;s activity and accepts direct submissions."><meta name="description" content="Join 14,800+ book lovers discovering their next favorite read. Submit book requests, get personalized recommendations, or share your work as an author."><meta property="og:title" content="Reading Community Hub — 14,800 Readers Finding Great Books"><meta property="og:description" content="A thriving Goodreads community helping readers discover incredible books."><link rel="modulepreload" href="https://robwihisky.lovable.app/assets/index-DUjOiMYA.js"><link rel="modulepreload" href="https://robwihisky.lovable.app/assets/index-C8euJdJJ.js"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="anonymous"><link rel="stylesheet" href="./Reading Community Hub — 14,800 Readers Finding Great Books_files/css2"><link rel="stylesheet" href="./Reading Community Hub — 14,800 Readers Finding Great Books_files/styles-7zVSWplY.css">
+<style>
+	@font-face {
+		font-family: 'CameraPlainVariable';
+		src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
+		font-weight: 100 900;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg);
+		color: var(--badge-text);
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow);
+		font-size: 12px;
+		font-family: CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: center;
+		gap: var(--badge-gap);
+		padding: 0 var(--badge-padding);
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+<script defer="" src="./Reading Community Hub — 14,800 Readers Finding Great Books_files/_flock.js.download" data-proxy-url="/~api/analytics"></script></head><body><!--$--><div class="min-h-screen"><section class="relative overflow-hidden bg-primary px-4 py-20 text-primary-foreground md:py-28"><div class="absolute inset-0 opacity-10"><div class="absolute inset-0" style="background-image:url(&quot;data:image/svg+xml,%3Csvg width=&#39;60&#39; height=&#39;60&#39; viewBox=&#39;0 0 60 60&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cg fill=&#39;none&#39; fill-rule=&#39;evenodd&#39;%3E%3Cg fill=&#39;%23ffffff&#39; fill-opacity=&#39;0.4&#39;%3E%3Cpath d=&#39;M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z&#39;/%3E%3C/g%3E%3C/g%3E%3C/svg%3E&quot;)"></div></div><div class="relative mx-auto max-w-5xl text-center"><p class="mb-4 font-body text-sm font-medium uppercase tracking-widest opacity-80">Goodreads Community</p><h1 class="font-display text-4xl font-bold leading-tight md:text-6xl">Where Readers Find<br>Their Next Favorite Book</h1><p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed opacity-90">A thriving community of 14,800 book lovers helping each other discover incredible reads — from slow-burn romance to mind-bending thrillers.</p><div class="mt-10 flex flex-wrap justify-center gap-4"><a href="https://robwihisky.lovable.app/#contact" class="inline-flex items-center gap-2 rounded-lg bg-card px-6 py-3 font-body text-sm font-semibold text-card-foreground transition-transform hover:scale-105"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open h-4 w-4" aria-hidden="true"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg> Submit a Request</a><a href="https://robwihisky.lovable.app/#how-it-works" class="inline-flex items-center gap-2 rounded-lg border border-primary-foreground/30 px-6 py-3 font-body text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/10">How It Works</a></div></div><div class="relative mx-auto mt-16 grid max-w-4xl grid-cols-2 gap-4 md:grid-cols-4"><div class="rounded-xl bg-primary-foreground/10 p-5 text-center backdrop-blur-sm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users mx-auto mb-2 h-5 w-5 opacity-80" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg><p class="font-display text-2xl font-bold">14,800+</p><p class="font-body text-xs opacity-70">Active Members</p></div><div class="rounded-xl bg-primary-foreground/10 p-5 text-center backdrop-blur-sm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open mx-auto mb-2 h-5 w-5 opacity-80" aria-hidden="true"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg><p class="font-display text-2xl font-bold">2,400+</p><p class="font-body text-xs opacity-70">Books Discussed</p></div><div class="rounded-xl bg-primary-foreground/10 p-5 text-center backdrop-blur-sm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star mx-auto mb-2 h-5 w-5 opacity-80" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><p class="font-display text-2xl font-bold">4.8★</p><p class="font-body text-xs opacity-70">Avg Rating</p></div><div class="rounded-xl bg-primary-foreground/10 p-5 text-center backdrop-blur-sm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle mx-auto mb-2 h-5 w-5 opacity-80" aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg><p class="font-display text-2xl font-bold">500+</p><p class="font-body text-xs opacity-70">Monthly Posts</p></div></div></section><section id="how-it-works" class="px-4 py-20"><div class="mx-auto max-w-5xl"><h2 class="text-center font-display text-3xl font-bold md:text-4xl">How It Works</h2><div class="mt-14"><h3 class="mb-6 text-center font-display text-xl font-semibold text-primary">📖 For Readers</h3><div class="grid gap-6 md:grid-cols-3"><div class="relative rounded-xl bg-card p-6 shadow-sm"><div class="mb-4 flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-tag text-tag-foreground font-display text-lg font-bold">1</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send h-5 w-5 text-muted-foreground" aria-hidden="true"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg></div><h3 class="font-display text-lg font-semibold">Submit a Request</h3><p class="mt-2 font-body text-sm leading-relaxed text-muted-foreground">Tell us what you're in the mood for — genre, vibe, or even a feeling.</p></div><div class="relative rounded-xl bg-card p-6 shadow-sm"><div class="mb-4 flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-tag text-tag-foreground font-display text-lg font-bold">2</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles h-5 w-5 text-muted-foreground" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg></div><h3 class="font-display text-lg font-semibold">Get Matched</h3><p class="mt-2 font-body text-sm leading-relaxed text-muted-foreground">Our community of 14,800 readers suggests personalized picks.</p></div><div class="relative rounded-xl bg-card p-6 shadow-sm"><div class="mb-4 flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-tag text-tag-foreground font-display text-lg font-bold">3</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open h-5 w-5 text-muted-foreground" aria-hidden="true"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></div><h3 class="font-display text-lg font-semibold">Start Reading</h3><p class="mt-2 font-body text-sm leading-relaxed text-muted-foreground">Discover your next favorite book, backed by real reader reviews.</p></div></div></div><div class="mt-16"><h3 class="mb-6 text-center font-display text-xl font-semibold text-primary">✍️ For Authors</h3><div class="grid gap-6 md:grid-cols-3"><div class="relative rounded-xl bg-card p-6 shadow-sm"><div class="mb-4 flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-warm text-warm-foreground font-display text-lg font-bold">1</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-tool h-5 w-5 text-muted-foreground" aria-hidden="true"><path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"></path><path d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"></path><path d="m2.3 2.3 7.286 7.286"></path><circle cx="11" cy="11" r="2"></circle></svg></div><h3 class="font-display text-lg font-semibold">Submit Your Book</h3><p class="mt-2 font-body text-sm leading-relaxed text-muted-foreground">Share your book details and what makes it special.</p></div><div class="relative rounded-xl bg-card p-6 shadow-sm"><div class="mb-4 flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-warm text-warm-foreground font-display text-lg font-bold">2</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-5 w-5 text-muted-foreground" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg></div><h3 class="font-display text-lg font-semibold">We Review It</h3><p class="mt-2 font-body text-sm leading-relaxed text-muted-foreground">Our team checks if it's a fit for our readers' tastes.</p></div><div class="relative rounded-xl bg-card p-6 shadow-sm"><div class="mb-4 flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-full bg-warm text-warm-foreground font-display text-lg font-bold">3</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-5 w-5 text-muted-foreground" aria-hidden="true"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg></div><h3 class="font-display text-lg font-semibold">Get Featured</h3><p class="mt-2 font-body text-sm leading-relaxed text-muted-foreground">Your book reaches thousands of engaged, eager readers.</p></div></div></div></div></section><section class="bg-muted px-4 py-20"><div class="mx-auto max-w-4xl text-center"><h2 class="font-display text-3xl font-bold md:text-4xl">What Readers Are Asking For</h2><p class="mt-3 font-body text-muted-foreground">The most popular requests from our community</p><div class="mt-10 flex flex-wrap items-center justify-center gap-3"><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-base px-5 py-2.5 font-medium">Slow-Burn Romance</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-lg px-6 py-3 font-semibold">Unreliable Narrator</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-sm px-4 py-2">Found Family</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-base px-5 py-2.5 font-medium">Dark Academia</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-lg px-6 py-3 font-semibold">Enemies to Lovers</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-sm px-4 py-2">Cozy Mystery</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-base px-5 py-2.5 font-medium">Spicy Fantasy</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-sm px-4 py-2">Psychological Thriller</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-xs px-3 py-1.5">Sapphic Romance</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-base px-5 py-2.5 font-medium">Morally Grey MC</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-xs px-3 py-1.5">Dual Timeline</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-lg px-6 py-3 font-semibold">BookTok Favorites</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-sm px-4 py-2">Historical Fiction</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-xs px-3 py-1.5">Magical Realism</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-sm px-4 py-2">Second Chance</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-base px-5 py-2.5 font-medium">Grumpy × Sunshine</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-xs px-3 py-1.5">Gothic Horror</span><span class="rounded-full bg-tag text-tag-foreground transition-transform hover:scale-105 text-sm px-4 py-2">Sci-Fi Romance</span></div></div></section><section class="px-4 py-20"><div class="mx-auto max-w-5xl"><h2 class="text-center font-display text-3xl font-bold md:text-4xl">What Members Are Saying</h2><p class="mt-3 text-center font-body text-muted-foreground">Real comments from our community (anonymized)</p><div class="mt-10 columns-1 gap-4 md:columns-2 lg:columns-3"><div class="mb-4 break-inside-avoid rounded-xl border bg-card p-5 shadow-sm"><p class="font-body text-sm leading-relaxed text-card-foreground">"<!-- -->I asked for a 'cozy mystery with a cat' and got THREE perfect recs within an hour. This group is magic.<!-- -->"</p><div class="mt-4 flex items-center gap-3"><span class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">SK</span><span class="font-body text-xs text-muted-foreground">2 hours ago</span></div></div><div class="mb-4 break-inside-avoid rounded-xl border bg-card p-5 shadow-sm"><p class="font-body text-sm leading-relaxed text-card-foreground">"<!-- -->Finally found my people. Every recommendation here has been a 4+ star read for me.<!-- -->"</p><div class="mt-4 flex items-center gap-3"><span class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">JM</span><span class="font-body text-xs text-muted-foreground">5 hours ago</span></div></div><div class="mb-4 break-inside-avoid rounded-xl border bg-card p-5 shadow-sm"><p class="font-body text-sm leading-relaxed text-card-foreground">"<!-- -->The slow-burn romance recs from this community are *chef's kiss*. My TBR has never been this good.<!-- -->"</p><div class="mt-4 flex items-center gap-3"><span class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">AL</span><span class="font-body text-xs text-muted-foreground">1 day ago</span></div></div><div class="mb-4 break-inside-avoid rounded-xl border bg-card p-5 shadow-sm"><p class="font-body text-sm leading-relaxed text-card-foreground">"<!-- -->As an author, getting featured here brought me 200+ new readers in a week. Incredible community.<!-- -->"</p><div class="mt-4 flex items-center gap-3"><span class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">RP</span><span class="font-body text-xs text-muted-foreground">2 days ago</span></div></div><div class="mb-4 break-inside-avoid rounded-xl border bg-card p-5 shadow-sm"><p class="font-body text-sm leading-relaxed text-card-foreground">"<!-- -->I love that people actually explain WHY they recommend a book, not just the title. So helpful!<!-- -->"</p><div class="mt-4 flex items-center gap-3"><span class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">TC</span><span class="font-body text-xs text-muted-foreground">3 days ago</span></div></div><div class="mb-4 break-inside-avoid rounded-xl border bg-card p-5 shadow-sm"><p class="font-body text-sm leading-relaxed text-card-foreground">"<!-- -->Asked for 'dark academia with sapphic leads' — got 8 suggestions in 30 minutes. Where has this group been all my life?<!-- -->"</p><div class="mt-4 flex items-center gap-3"><span class="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">MN</span><span class="font-body text-xs text-muted-foreground">4 days ago</span></div></div></div></div></section><section class="bg-muted px-4 py-20"><div class="mx-auto max-w-5xl"><h2 class="text-center font-display text-3xl font-bold md:text-4xl">Real Results</h2><p class="mt-3 text-center font-body text-muted-foreground">See the kind of books our community discovers and discusses</p><div class="mt-10 grid gap-6 md:grid-cols-2"><div class="overflow-hidden rounded-xl border bg-card shadow-sm"><img src="./Reading Community Hub — 14,800 Readers Finding Great Books_files/proof-before-CEjWFJq1.png" alt="Community book discussion example" class="w-full" loading="lazy"><div class="p-4"><p class="font-body text-sm font-medium text-card-foreground">Community Pick — Before</p><p class="mt-1 font-body text-xs text-muted-foreground">Initial recommendation from a member</p></div></div><div class="overflow-hidden rounded-xl border bg-card shadow-sm"><img src="./Reading Community Hub — 14,800 Readers Finding Great Books_files/proof-after-D4VTPzNY.png" alt="Community engagement result" class="w-full" loading="lazy"><div class="p-4"><p class="font-body text-sm font-medium text-card-foreground">Community Pick — After</p><p class="mt-1 font-body text-xs text-muted-foreground">79,731 ratings after community buzz</p></div></div></div></div></section><section id="contact" class="px-4 py-20"><div class="mx-auto max-w-lg"><h2 class="text-center font-display text-3xl font-bold md:text-4xl">Get in Touch</h2><p class="mt-3 text-center font-body text-muted-foreground">Have a book request, want to submit your work, or just say hello?</p><form class="mt-8 space-y-4"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_subject" value="New submission from Reading Community Hub"><div><label for="name" class="mb-1 block font-body text-sm font-medium">Name *</label><input id="name" required="" class="w-full rounded-lg border bg-card px-4 py-3 font-body text-sm text-card-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" placeholder="Your name" name="name"></div><div><label for="email" class="mb-1 block font-body text-sm font-medium">Email *</label><input id="email" type="email" required="" class="w-full rounded-lg border bg-card px-4 py-3 font-body text-sm text-card-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" placeholder="you@example.com" name="email"></div><div><label for="subject" class="mb-1 block font-body text-sm font-medium">Subject *</label><select id="subject" name="subject" required="" class="w-full rounded-lg border bg-card px-4 py-3 font-body text-sm text-card-foreground focus:outline-none focus:ring-2 focus:ring-ring"><option value="">Select a subject...</option><option value="Book Recommendation Request">Book Recommendation Request</option><option value="Author Submission">Author Submission</option><option value="Partnership Inquiry">Partnership Inquiry</option><option value="General Question">General Question</option><option value="Other">Other</option></select></div><div><label for="message" class="mb-1 block font-body text-sm font-medium">Message / Book Request *</label><textarea id="message" name="message" required="" rows="4" class="w-full rounded-lg border bg-card px-4 py-3 font-body text-sm text-card-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" placeholder="Tell us what you&#39;re looking for, or share your book details..."></textarea></div><label class="flex items-center gap-3 font-body text-sm"><input type="checkbox" class="h-4 w-4 rounded border-border accent-primary" name="is_author" value="Yes">I'm an author submitting my book</label><button type="submit" class="w-full rounded-lg bg-primary px-6 py-3 font-body text-sm font-semibold text-primary-foreground transition-transform hover:scale-[1.02] disabled:opacity-60">Send Message</button></form></div></section><footer class="border-t bg-card px-4 py-10 text-center"><p class="font-display text-lg font-semibold text-card-foreground">📚 The Reading Community Hub</p><p class="mt-2 font-body text-sm text-muted-foreground">14,800+ readers strong on Goodreads · Helping you find your next favorite book</p><p class="mt-4 font-body text-xs text-muted-foreground">© <!-- -->2026<!-- --> Reading Community Hub. All rights reserved.</p></footer></div><!--/$-->
+<aside id="lovable-badge" role="complementary" dir="ltr" lang="en" aria-label="Edit with Lovable">
+	<a id="lovable-badge-cta" target="_blank" href="https://lovable.dev/projects/8d90b528-bab7-47a3-a2ec-fb2957ec3cde?utm_source=lovable-badge" rel="noopener" aria-label="Edit with Lovable">
+		<span id="lovable-badge-text">Edit with</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+  <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd"></path>
+  <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z"></path>
+  <path fill="url(#a)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd"></path>
+  <defs>
+    <radialgradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
+      <stop offset=".106" stop-color="#FE7B02"></stop>
+      <stop offset=".394" stop-color="#FE3F21"></stop>
+      <stop offset=".608" stop-color="#F858BC"></stop>
+      <stop offset=".929" stop-color="#575ECF"></stop>
+    </radialgradient>
+  </defs>
+</svg>
+
+
+	</a>
+	
+	<span id="lovable-badge-divider" aria-hidden="true"></span>
+	
+	<button id="lovable-badge-close" aria-label="Dismiss" title="Dismiss" type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"></path>
+		</svg>
+	</button>
+</aside>
+<script>
+	// Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer (screenshot service)
+	if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+		// the page is in an iframe
+		var badge = document.getElementById('lovable-badge');
+		if (badge) {
+			badge.style.display = 'none';
+		}
+	}
+
+	// Add click event listener to close button with animation
+	var closeButton = document.getElementById('lovable-badge-close');
+	if (closeButton) {
+		closeButton.addEventListener('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			var badge = document.getElementById('lovable-badge');
+			if (badge) {
+				badge.classList.add('closing');
+				setTimeout(function() {
+					if (badge) {
+						badge.style.display = 'none';
+					}
+				}, 240);
+			}
+		});
+	}
+</script>
+</body></html>
